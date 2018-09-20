@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.dependency 'JRSwizzle'
 
   s.requires_arc = false
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC++ -lstdc++' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-lstdc++' }
 
 end
